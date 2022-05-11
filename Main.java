@@ -30,7 +30,7 @@ public  class Main
         
         for(int i = 1; i <= 10; ++i)
         {
-            reihe += 1 / pow(i, 2);
+            reihe += 1 / pow(i, 2); //So siehtś besser aus!
         }
         System.out.println(reihe);
     }
