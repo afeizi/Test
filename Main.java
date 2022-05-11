@@ -1,4 +1,6 @@
 
+import static java.lang.Math.*;
+
 public  class Main
 {
     /*
@@ -28,7 +30,7 @@ public  class Main
         
         for(int i = 1; i <= 10; ++i)
         {
-            reihe += 1 / Math.pow(i, 2);
+            reihe += 1 / pow(i, 2);
         }
         System.out.println(reihe);
     }
